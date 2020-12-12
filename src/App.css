@@ -1,0 +1,47 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #c88719;
+}
+
+h4 {
+  font-size: 22px;
+}
+.app form {
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.app button {
+  height: 33px;
+}
+
+.bin-input-container {
+}
+
+
+.bin-input-container input {
+  background: transparent;
+  border: 1px solid #cbae82;
+  outline: none;
+  box-shadow: none;
+  color: #c88719;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+
+.bin-input-error {
+  color: red;
+  font-size: 16px;
+}
+
+.dec {
+  padding: 5px 10px;
+  width: 241px;
+  height: 33px;
+  background: #ffe97d;
+  text-align: right;
+  font-size: 18px;
+}
