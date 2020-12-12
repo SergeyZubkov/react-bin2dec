@@ -32,12 +32,16 @@ function App() {
 
   return (
     <div className="app">
-      <h4>Перевести двоичное число в десятичное</h4>
+      <h1>Bin2Dec</h1>
       <form>
+        <h2>Введите двоичное число <br/>
+            и получите его в десятичном виде
+        </h2>
         <div className="bin-input-container">
           <input
             value={binNumber}
             onChange={e => setBinNumber( validate(e.target.value) )}
+            placeholder="0101"
           />
           <div className='bin-input-error'>{error}</div>
         </div>
